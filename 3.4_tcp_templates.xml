@@ -92,7 +92,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：コネクションが全く存在せず、確立段階にも入っていないが開かれているポート</description>
+                    <description>Number of TCP port states: There is no connection at all, it is not in the establishment stage but the opened port</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -140,7 +140,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：アプリケーションプロセスからのコネクション終了要求を待機しているポート</description>
+                    <description>Number of TCP port states: Port waiting for connection termination request from application process</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -188,7 +188,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：リモートホストからのコネクション終了要求を待機しているポート</description>
+                    <description>Number of TCP port states: A port waiting for a connection termination request from a remote host</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -236,7 +236,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：コネクションが開かれ、データ転送が行える通常の状態になっているポート</description>
+                    <description>Number of TCP port states: A port that is in a normal state where a connection is opened and data transfer can be performed</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -284,7 +284,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：リモートホストからのコネクション終了要求の待機、またはすでに送った終了要求の応答確認の待機をしているポート</description>
+                    <description>Number of TCP port states: A port waiting for a connection termination request from a remote host or waiting for acknowledgment of a termination request that has already been sent</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -332,7 +332,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：リモートホストに送ったコネクション終了要求について応答確認を待機しているポート</description>
+                    <description>Number of TCP port states: Port that is waiting for response confirmation for the connection termination request sent to the remote host</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -380,7 +380,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：リモートホストからのコネクション要求を待機しているポート</description>
+                    <description>Number of TCP port states: A port waiting for a connection request from a remote host</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -428,7 +428,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：SYNセグメントを受信し、対応するSYN/ACKセグメントを返信し、コネクション応答確認を待機しているポート</description>
+                    <description>Number of TCP port states: Receives the SYN segment, returns the corresponding SYN / ACK segment, and returns the port waiting for the connection response acknowledgment</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -476,7 +476,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：コネクション要求の送信を終え、応答確認と対応するコネクション要求を待機しているポート</description>
+                    <description>Number of TCP port states: A port that has finished transmitting the connection request and is waiting for a response confirmation and a corresponding connection request</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -524,7 +524,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：コネクション終了要求応答確認をリモートホストが確実に受取るのに必要な時間が経過するまで待機しているポート</description>
+                    <description>Number of TCP port states: a port that is waiting for the time required for the remote host to reliably receive a connection termination request acknowledgment has elapsed</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -572,7 +572,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>TCPポート状態数：コネクション終了要求応答確認をリモートホストが確実に受取るのに必要な時間が経過するまで待機しているポート</description>
+                    <description>Number of TCP port states: a port that is waiting for the time required for the remote host to reliably receive a connection termination request acknowledgment has elapsed</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
